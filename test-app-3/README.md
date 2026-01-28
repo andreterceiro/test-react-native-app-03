@@ -7,3 +7,5 @@ The content of the tag v0.1.0 is very simple:
 ```
 npx create-expo-app test-app-2 -t
 ```
+
+2- Next I created the 2 screens (GalleryScreen and HomeScreen).
