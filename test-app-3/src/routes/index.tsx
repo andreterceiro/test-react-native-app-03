@@ -1,15 +1,10 @@
-import {View, Text} from 'react-native'
+import { NavigationContainer } from '@react-navigation/native'
+import BottomTabsRoutes from './bottom-tabs.routes'
 
 export default function Routes() {
-    return <View>
-        <Text>oi</Text>
-        <Text>oi</Text>
-        <Text>oi</Text>
-        <Text>oi</Text>
-        <Text>oi</Text>
-        <Text>oi</Text>
-        <Text>oi</Text>
-        <Text>oi</Text>
-        <Text>oi</Text>
-    </View>
-}
+    return (
+      <NavigationContainer>
+        <BottomTabsRoutes />
+      </NavigationContainer>
+    )
+  }
