@@ -9,3 +9,5 @@ npx create-expo-app test-app-2 -t
 ```
 
 2- Next I created the 2 screens (GalleryScreen and HomeScreen).
+
+3- Next I imported these screens in App.tsx and used them in App.tsx, with an external View component.
